@@ -2,9 +2,9 @@ import { Search } from "lucide-react";
 import React from "react";
 import Searchs from "./searh";
 
-type Props = {};
 
-export default function Decouverte({}: Props) {
+
+export default function Decouverte() {
   return (
     <div className='pt-32 pb-20 relative overflow-hidden'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
