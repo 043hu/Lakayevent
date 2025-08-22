@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-export default function MobileNav({}: Props) {
+
+export default function MobileNav() {
   return (
     <div id='mobile-menu' className='hidden md:hidden bg-white shadow-lg'>
         <div className='px-2 pt-2 pb-3 space-y-1'>
