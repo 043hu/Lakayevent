@@ -2,9 +2,9 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
-type Props = {};
 
-export default function Gsap({}: Props) {
+
+export default function Gsap() {
   const floatingShapes = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
