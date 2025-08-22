@@ -2,9 +2,9 @@
 import { Search } from "lucide-react";
 import React from "react";
 
-type Props = {};
 
-export default function Searchs({}: Props) {
+
+export default function Searchs() {
   return (
     <div className='mt-10 flex flex-col sm:flex-row gap-4'>
       <div className='relative flex-grow '>
