@@ -1,9 +1,9 @@
 import { ChartLine, Megaphone, Smartphone, Ticket } from "lucide-react";
 import React from "react";
 
-type Props = {};
 
-export default function Fonctionnality({}: Props) {
+
+export default function Fonctionnality() {
   return (
     <div className='py-16 bg-white' id='features'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
