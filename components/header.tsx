@@ -3,9 +3,9 @@ import MobileNav from "./modile-nav";
 import { CircleUserRound, Settings, TicketCheck } from "lucide-react";
 import Gsap from "./gsap";
 
-type Props = {};
 
-export default function Header({}: Props) {
+
+export default function Header() {
   return (
     <nav className='bg-white shadow-sm fixed w-full z-50 transition-all duration-300'>
         <Gsap/>
