@@ -6,9 +6,9 @@ import {
 } from "@radix-ui/react-accordion";
 import React from "react";
 
-type Props = {};
 
-export default function FAQ({}: Props) {
+
+export default function FAQ() {
   return (
     <div className='py-16 bg-white' id='faq'>
       <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
